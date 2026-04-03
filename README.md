@@ -44,10 +44,16 @@ Enhanced SUSFS logic patches adapted for **non-GKI kernels** (4.14). These patch
 - ZeroMount built into kernel
 
 ### Apply Patches
+
+**Option 1: Wrapper Script (Recommended)**
+```bash
+cd /path/to/SUSFS-NonGKI-Patches
+./apply_patches.sh /path/to/your/kernel/source
+```
+
+**Option 2: Manual**
 ```bash
 cd /path/to/your/kernel/source
-
-# Apply all patches in order
 for patch in /path/to/SUSFS-NonGKI-Patches/patches/*.patch; do
     patch -p1 < "$patch"
 done
