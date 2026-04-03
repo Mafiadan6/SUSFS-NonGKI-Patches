@@ -106,11 +106,12 @@ patches/
 
 | Project/Person | Contribution |
 |----------------|-------------|
-| **[Super-Builders](https://github.com/Enginex0/Super-Builders)** by **Enginex0** | Original SUSFS patches, ZeroMount module, and BRENE integration |
-| **[KernelSU](https://github.com/tiann/KernelSU)** by **tiann** | Kernel-based root solution |
 | **[SUSFS](https://gitlab.com/simonpunk/susfs4ksu)** by **simonpunk** | Kernel-level hiding and spoofing framework |
+| **[NonGKI Kernel Build](https://github.com/JackA1ltman/NonGKI_Kernel_Build_2nd)** by **JackA1ltman** | Base SUSFS 2.1.0 patches adapted for non-GKI kernels |
+| **[Super-Builders](https://github.com/Enginex0/Super-Builders)** by **Enginex0** | Original GKI SUSFS logic patches, ZeroMount module, and BRENE integration |
+| **[KernelSU](https://github.com/tiann/KernelSU)** by **tiann** | Kernel-based root solution |
 | **[ZeroMount](https://github.com/Enginex0/Super-Builders)** by **Enginex0** | VFS driver and mount management |
-| **mafiadan6** | Non-GKI 4.14 adaptation and patch integration |
+| **mafiadan6** | Non-GKI 4.14 adaptation, supercall fix, and patch integration |
 
 ---
 
